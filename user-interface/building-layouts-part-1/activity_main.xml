@@ -1,5 +1,5 @@
 <TextView
-  android:text="Hapy Birthday"
-  android:layout_width="150dp"
-  android:layout_height="150dp"
-  android:background="@android:color/darker_gray" />
+  android:text="Happy birthday to you, happy birthday to you, happy birthday dear Jennie, happy birthday to you!"
+  android:background="@android:color/darker_gray"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" />
