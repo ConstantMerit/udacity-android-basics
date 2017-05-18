@@ -4,28 +4,27 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent">
 
-  <TextView
-    android:text="Tom"
+  <ImageView
+    android:src="@drawable/ocean"
     android:layout_width="match_parent"
     android:layout_height="0dp"
     android:layout_weight="1"
-    android:textSize="24sp"
-    android:background="#4caf50" />
+    android:scaleType="centerCrop" />
 
   <TextView
-    android:text="Tim"
+    android:text="You're invited!"
     android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1"
-    android:textSize="24sp"
-    android:background="#2196f3" />
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:textSize="54sp"
+    android:background="#009688" />
 
   <TextView
-    android:text="Todd"
+    android:text="Bonfire at the beach"
     android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1"
-    android:textSize="24sp"
-    android:background="#673ab7" />
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/white"
+    android:textSize="34sp"
+    android:background="#009688" />
 
 </LinearLayout>
