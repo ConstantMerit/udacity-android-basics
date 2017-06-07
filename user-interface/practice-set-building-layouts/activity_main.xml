@@ -5,6 +5,11 @@
   android:layout_height="match_parent"
   tools:context=".MainActivity">
 
+  <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/androidparty" />
+
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -13,11 +18,8 @@
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="From, Jeff" />
-
-  <ImageView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/androidparty" />
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:text="From, Jeff!" />
 
 </RelativeLayout>
