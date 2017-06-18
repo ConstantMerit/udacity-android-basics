@@ -17,6 +17,7 @@
     android:textSize="36sp"
     android:fontFamily="sans-serif-light"
     android:textColor="@android:color/white"
+    android:padding="20dp"
     android:text="Happy Birthday, Ben!" />
 
   <TextView
@@ -27,6 +28,7 @@
     android:textSize="36sp"
     android:fontFamily="sans-serif-light"
     android:textColor="@android:color/white"
+    android:padding="20dp"
     android:text="From, Jeff!" />
 
 </RelativeLayout>
